@@ -1,8 +1,9 @@
 # Tweets_Dataset_for_Sarcasm_detection_in_Hindi
 Raw dataset having over 16000 tweets (including both sarcastic and non-sarcastic) for researchers aspiring to work on Sarcasm Detection in Hindi.
 
-  **Number of Sarcastic tweets: 6051
-  Number of Non-Sarcastic Tweets: 10128**
+  **Number of Sarcastic tweets: 6051**
+  
+  **Number of Non-Sarcastic Tweets: 10128**
   
 These tweets were extracted using tweet scrapping code from the Github repository of [Mr. Griffin Leow](https://github.com/leowgriffin/tweets_analysis_hkprotests_2019/blob/master/scraping_tweets.py)
 
