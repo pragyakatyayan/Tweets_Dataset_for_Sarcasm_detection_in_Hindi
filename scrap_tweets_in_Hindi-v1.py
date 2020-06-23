@@ -23,10 +23,17 @@ auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_key, access_secret)
 api = tweepy.API(auth)
 
-# Initialise these variables:
+# For Sarcastic tweets:
 search_words = "#कटाक्ष OR #kataksh OR #sarcasm OR #sarcastic OR #irony"
 date_since = "2012-01-01"
 numTweets = 2500
 numRuns = 10
+
+###For Non-Sarcastic tweets:
+##search_words = "#खुशी OR #खुशियाँ OR #happy OR #smile OR #sad OR #sadness OR #दुख OR #दुखी OR #उदास"
+##date_since = "2012-01-01"
+##numTweets = 2500
+##numRuns = 5
+
 # Call the function scraptweets
 scraptweets.scraptweets(search_words, date_since, numTweets, numRuns)
