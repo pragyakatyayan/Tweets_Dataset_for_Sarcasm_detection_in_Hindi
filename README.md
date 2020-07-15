@@ -1,8 +1,5 @@
 # Tweets_Dataset_for_Sarcasm_detection_in_Hindi
-<img src="https://img.shields.io/github/last-commit/pragyakatyayan/Tweets_Dataset_for_Sarcasm_detection_in_Hindi" alt="last-commit"> 
-<img src="https://img.shields.io/badge/pandas-v0.24.2-yellow" alt="pandas"> 
-<img src="https://img.shields.io/badge/tweepy-v3.8.0-orange" alt="tweepy">
-<img src="https://img.shields.io/badge/textblob-v0.15.3-red" alt="textblob">
+<img src="https://img.shields.io/github/last-commit/pragyakatyayan/Tweets_Dataset_for_Sarcasm_detection_in_Hindi" alt="last-commit"> <img src="https://img.shields.io/badge/pandas-v0.24.2-yellow" alt="pandas"> <img src="https://img.shields.io/badge/tweepy-v3.8.0-orange" alt="tweepy"> <img src="https://img.shields.io/badge/textblob-v0.15.3-red" alt="textblob">
 
 Raw dataset having over 16000 tweets (including both sarcastic and non-sarcastic) for researchers aspiring to work on Sarcasm Detection in Hindi.
 
