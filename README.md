@@ -12,4 +12,5 @@ These tweets were extracted using tweet scrapping code from the Github repositor
 It was tweaked to extract tweets in native Hindi and of specific hashtags.
 The dataset has tweets for the duration 01-01-2012 to 23-06-2020.
 
-Run the `scrap_tweets_in_Hindi-v1.py` file via IDLE or Jupyter Notebook to re-scrap tweets from twitter.
+Method #1: Run the `scrap_tweets_in_Hindi-v1.py` file via IDLE or Jupyter Notebook to re-scrap tweets from twitter.   
+Method #2: Just download the Jupyter Notebook and run all the cells!
