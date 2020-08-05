@@ -6,6 +6,18 @@ def scraptweets(search_words, date_since, numTweets, numRuns):
     # numTweets -> number of tweets to extract per run
     # numRun -> number of runs to perform in this program - API calls are limited to once every 15 mins, so each run will be 15 mins apart.
     ##
+    from tweepy import OAuthHandler
+    from tweepy.streaming import StreamListener
+    import tweepy
+    import json
+    import pandas as pd
+    import csv
+    import re
+    from textblob import TextBlob
+    import string
+    import preprocessor as p
+    import os
+    import time
     
     # Define a pandas dataframe to store the date:
     db_tweets = pd.DataFrame(columns = ['username', 'acctdesc', 'location', 'following',
